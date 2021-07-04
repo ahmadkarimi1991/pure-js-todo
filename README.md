@@ -1,1 +1,1 @@
-# pure-js-todo
+# Pure JS ToDo

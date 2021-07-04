@@ -1,0 +1,27 @@
+{
+  "name": "pure-js-todo",
+  "version": "1.0.0",
+  "description": "Pure JS ToDo",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "postcss ./src/css/**/*.css -o ./public/css/app.css -w",
+    "build:css": "postcss ./src/css/app.css -o ./public/css/app.css",
+    "production:css": "NODE_ENV=production postcss ./src/css/app.css -o ./public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadkarimi1991/pure-js-todo.git"
+  },
+  "author": "Ahmad Karimi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmadkarimi1991/pure-js-todo/issues"
+  },
+  "homepage": "https://github.com/ahmadkarimi1991/pure-js-todo#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}
